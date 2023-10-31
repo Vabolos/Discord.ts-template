@@ -1,14 +1,14 @@
 {
   "name": "discord-bot",
   "version": "1.0.0",
-  "description": "Funny little xd template for discord js bots",
+  "description": "Funny little xd template for discord js/ts bots",
   "main": "dist/index.js",
   "scripts": {
     "start": "tsc-watch --onsuccess \"node dist/index.js\"",
     "reload": "tsc-watch --onsuccess \"node dist/deploy-commands.js\""
   },
   "module": "es2020",
-  "author": "Yorick",
+  "author": "Name_Here",
   "dependencies": {
     "discord-api-types": "^0.37.60",
     "discord.js": "^14.11.0",
